@@ -21,9 +21,3 @@ it yourself first).
   never written to `.git/config`; encrypted at rest via the OS keychain
   when available, otherwise stored in plaintext in this plugin's
   `data.json`)
-
-## Split history
-
-This plugin was split out of an earlier "Margin Notes" plugin, where git
-sync had been bolted on as an unrelated third concern. It has no
-dependency on margin notes and works with any vault.
