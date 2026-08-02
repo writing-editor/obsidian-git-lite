@@ -8,6 +8,10 @@
     "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
   },
   "license": "MIT",
+  "dependencies": {
+    "isomorphic-git": "^1.25.10",
+    "buffer": "^6.0.3"
+  },
   "devDependencies": {
     "@types/node": "^20.11.30",
     "builtin-modules": "^3.3.0",

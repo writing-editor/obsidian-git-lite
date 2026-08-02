@@ -3,8 +3,8 @@
   "name": "Git Lite",
   "version": "0.1.0",
   "minAppVersion": "1.4.0",
-  "description": "Minimal git pull / commit+push / status commands for your vault. Desktop only, assumes the vault root is already a git repo.",
+  "description": "Git pull / commit+push / status for your vault, on desktop (native git) and mobile (isomorphic-git). First run against an empty vault clones the remote for you.",
   "author": "you",
   "authorUrl": "",
-  "isDesktopOnly": true
+  "isDesktopOnly": false
 }
